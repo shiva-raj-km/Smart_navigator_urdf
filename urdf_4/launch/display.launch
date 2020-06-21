@@ -11,5 +11,5 @@
     name="rviz"
     pkg="rviz"
     type="rviz"
-    args="-d $(find urdf_4)/urdf.rviz" />
+    args="-d $(find urdf_4)/rviz/urdf.rviz" />
 </launch>
