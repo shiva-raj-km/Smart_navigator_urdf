@@ -4,7 +4,11 @@ The Smart Navigator 3D model was constructed using SolidWorks design software. T
 
 ## Prerequisites
 ROS framework should be installed.
-
+## Setup
+```bash
+git clone https://github.com/shiva-raj-km/Smart_navigator_urdf.git
+# cut & copy the urdf_4 folder into src folder of workspace
+```
 
 ## Usage
 ``` bash
@@ -17,3 +21,9 @@ roslaunch urdf_4 display.launch # to view in rviz
 # To view the simulation in gazebo
 roslaunch urdf_4 gazebo.launch
 ```
+## Results
+* Rviz
+![navigator in Rviz](https://github.com/shiva-raj-km/Smart_navigator_urdf/blob/master/rviz.png)
+
+* Gazebo
+![navigator in Gazebo simulator](https://github.com/shiva-raj-km/Smart_navigator_urdf/blob/master/gazebo.png)
