@@ -1,0 +1,18 @@
+Introduction:
+
+Mobile platform is built which is driven by hub motors with an independent power unit and autonomously localizes and navigates itself by using 3d sensor, Inertial measurement units (IMU) and SLAM algorithm with ROS support.
+
+
+Hardware:
+1. Kinect
+2. Arduino Mega 
+3. IMU
+4. Hub motors and controller
+
+Software: (Ubuntu specific OS)
+1. ROS Kinetic for Ubuntu 16.04
+2. Openni driver for 3d camera interface
+3. ROS navigation stack
+4. Google Cartographer for localization and mapping (new algorithm) replacing Gmapping and AMCL in navigation stack
+5. Arduino IDE
+
