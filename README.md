@@ -8,9 +8,9 @@ ROS framework should be installed.
 
 ## Usage
 ``` bash
-Terminal -1
+# Terminal -1
 roscore # Run the ROS master
-Terminal -2
+# Terminal -2
 # source the workspace
 roslaunch urdf_4 display.launch # to view in rviz
 
